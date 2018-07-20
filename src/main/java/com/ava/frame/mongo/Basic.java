@@ -10,6 +10,7 @@ import java.util.Date;
 
 public class Basic implements Serializable {
 
+
     private Long createAt = new Date().getTime() / 1000;
 
     private Long updateAt = new Date().getTime() / 1000;
